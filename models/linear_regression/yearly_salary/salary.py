@@ -59,7 +59,7 @@ def main():
     x_axis = list(salary_dataframe['YearsExperience'])
     y_axis = list(salary_dataframe['Salary'])
     plot_labels_dict = {'xlabel':'Years Of Experience','ylabel':'Salary $/hr','title':'Salary Yearly Wage'}
-    plot_2d_data(x_axis,y_axis,plot_labels_dict)
+    plot_2d_data(x_axis,y_axis,**plot_labels_dict)
 
     # creates model for single variable relationship using reshape
     X = np.array(salary_dataframe[["YearsExperience"]])

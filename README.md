@@ -6,5 +6,4 @@ Machine learning projects showcase for different types of machine learning model
 
 ## Status:
 
-Currently learning linear regression for multivariable and using One-hot-encoding algorithm for string catergories.
-Will continue to learn more algorithms.
+Currently learning KNN with image classification. Will continue to learn more algorithms.
